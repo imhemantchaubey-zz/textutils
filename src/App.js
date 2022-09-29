@@ -47,7 +47,7 @@ function App() {
     <Alert alert = {alert}  />
     <div className="container my-3" >
       <Routes>
-        <Route exact path="/textutils/" element ={<TextForm showAlert= {showAlert} heading="Enter the text to analyze below" mode = {mode} />}/>
+        <Route exact path="/textutils" element ={<TextForm showAlert= {showAlert} heading="Enter the text to analyze below" mode = {mode} />}/>
         <Route exact path="/textutils/features" element = {<Features mode={mode} toggleMode = {toggleMode}/>}/>
       </Routes>
     </div>
