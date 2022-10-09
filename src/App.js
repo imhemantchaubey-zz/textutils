@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React,{useState} from 'react'
 import Alert from './components/Alert';
+import Footer from './components/Footer'
 import {
   BrowserRouter as Router,
   Routes,
@@ -52,6 +53,7 @@ function App() {
       </Routes>
     </div>
     </Router>
+    <Footer mode={mode} toggleMode={toggleMode} />
     </>
   );
 }

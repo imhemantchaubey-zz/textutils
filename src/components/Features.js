@@ -14,7 +14,7 @@ export default function Features(props) {
                         </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div className="accordion-body"  >
+                        <div className="accordion-body" style={{color: props.mode === 'dark'?'white':'black',backgroundColor: props.mode === 'dark'?'rgb(3 20 62)':'white'}}  >
                             Textutils gives you a way to analyze your text quickly and efficiently. Be it word count , character count.
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export default function Features(props) {
                         </button>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div className="accordion-body" >
+                        <div className="accordion-body" style={{color: props.mode === 'dark'?'white':'black',backgroundColor: props.mode === 'dark'?'rgb(3 20 62)':'white'}} >
                             Textutil is a free counter tool that provides instant character count & word count statistics for a given text. Textutils reports the number of words and characters.Thus it is suitable for writing text with word/ character limit.
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Features(props) {
                         </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div className="accordion-body" >
+                        <div className="accordion-body" style={{color: props.mode === 'dark'?'white':'black',backgroundColor: props.mode === 'dark'?'rgb(3 20 62)':'white'}} >
                             TextUtils is compatible with any web browsers such as Chrome, firefox , Safari.
                         </div>
                     </div>
