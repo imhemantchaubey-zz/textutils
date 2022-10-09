@@ -15,7 +15,7 @@ export default function Footer(props) {
             floating
             className='m-1'
             style={{ backgroundColor: '#3b5998' }}
-            href='#!'
+            href='https://www.facebook.com/imhemantchaubey/'
             role='button'
           >
             <MDBIcon fab icon='facebook-f' />
@@ -25,7 +25,7 @@ export default function Footer(props) {
             floating
             className='m-1'
             style={{ backgroundColor: '#55acee' }}
-            href='#!'
+            href='https://twitter.com/imhemantchaubey'
             role='button'
           >
             <MDBIcon fab icon='twitter' />
@@ -35,7 +35,7 @@ export default function Footer(props) {
             floating
             className='m-1'
             style={{ backgroundColor: '#ac2bac' }}
-            href='#!'
+            href='https://www.instagram.com/imhemantchaubey/'
             role='button'
           >
             <MDBIcon fab icon='instagram' />
@@ -45,7 +45,7 @@ export default function Footer(props) {
             floating
             className='m-1'
             style={{ backgroundColor: '#0082ca' }}
-            href='#!'
+            href='https://www.linkedin.com/in/imhemantchaubey/'
             role='button'
           >
             <MDBIcon fab icon='linkedin-in' />
@@ -55,7 +55,7 @@ export default function Footer(props) {
             floating
             className='m-1'
             style={{ backgroundColor: '#333333' }}
-            href='#!'
+            href='https://github.com/imhemantchaubey'
             role='button'
           >
             <MDBIcon fab icon='github' />
@@ -64,7 +64,7 @@ export default function Footer(props) {
       </MDBContainer>
 
       <div className='text-center p-3' style={{color: props.mode === 'dark'?'white':'black'}}>
-        © 2022 Copyright | <a href='https://github.com/imhemantchaubey' style={{color: props.mode === 'dark'?'white':'black'}} target="_blank">
+        © 2022 Copyright | <a href='https://github.com/imhemantchaubey' style={{color: props.mode === 'dark'?'white':'black'}} target="_blank" rel="noopener noreferrer">
           Hemant
         </a>
       </div>
