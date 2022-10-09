@@ -34,15 +34,6 @@ export default function Footer(props) {
           <MDBBtn
             floating
             className='m-1'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
             style={{ backgroundColor: '#ac2bac' }}
             href='#!'
             role='button'
@@ -72,8 +63,8 @@ export default function Footer(props) {
         </section>
       </MDBContainer>
 
-      <div className='text-center text-light p-3' >
-        © 2022 Copyright | <a className='text-light' href='mailto:imhemantrchaubey@gmail.com'>
+      <div className='text-center p-3' style={{color: props.mode === 'dark'?'white':'black'}}>
+        © 2022 Copyright | <a href='https://github.com/imhemantchaubey' style={{color: props.mode === 'dark'?'white':'black'}} target="_blank">
           Hemant
         </a>
       </div>
